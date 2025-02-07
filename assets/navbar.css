@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #214e6b;
+    height: 8vh;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    padding: 2rem 9%;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.home {
+    background: url(../imgs/pexels-bri-schneiter-28802-346529.jpg) no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    display: block;
+    background-attachment: fixed;
+}
+
+main  {
+    position: relative;
+    display: inline-block;
+}
+
+.conteudo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+    background: #214e6b;
+    padding: 30px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+}
+
+.conteudo h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.conteudo1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: white;
+    background: #214e6b;
+    padding: 30px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+}
+
+.conteudo1 h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    color: white;
+    background: #214e6b;
+    width: 17%;
+    padding: 30px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #91a7b5;
+}
+
+
+
